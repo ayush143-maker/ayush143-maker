@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:16213e&height=180&section=header&text=Ayush&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Independent%20Developer%20%7C%20Builder&descAlignY=58&descSize=18" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:16213e&height=220&section=header&text=Ayush&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=Independent%20Developer%20%7C%20Builder&descAlignY=52&descSize=17" width="100%"/>
 </p>
 
 <p align="center">
@@ -10,27 +10,25 @@
 
 ```text
                                                                                 
-                                         .                                     
-                               ......         .                               
-                                                .                              
-                            .                       .                         
+                                                                                
+                                        ..                                     
+                                   .           ..                              
+                            .                                                  
                                                     .                          
-                              :::::::..::::::.                                
-                            .------------====-:                               
-                            =-..  ...----::---=-                              
-                          :==.       :::..   .-:                              
-                          -++=:..   .-==:.  :-+:                              
-                          -=+++==--:-+*+=-::-=+:                              
-                          ::--=++=-=+*+*++++++*                               
-                            :---===::-==+==++*=                               
-                            ..:::::.  .:---=+=                                
-                              ....  ...::.-=-                                 
+                                                                                
+                             .::----:::::----:                                
+                            --:::::::-=----===-:                              
+                          .-=:       ::::.  ..-:                              
+                          -++=:...  .-==:.  ::+:                              
+                          -==+++==--=+*+=---==*:                              
+                           .--=======++++=+++++                               
+                            .::----. .::-===++.                               
+                              ...   ...::.-==.                                
                              .  .::...:-=:-:                                  
-                             :.   ....:-:.-.                                  
-                           .::..       .:-=-                                  
-                          =*-::......::---=+=.                                
-                          -+-::.:..:::----==:                                 
-                           .:-::::::::----:.                                  
+                             :.   .....:::-.                                  
+                          .--:...     .::-==:                                 
+                          =*-::.....::----==-                                 
+                           ::-::::::::-----.                                  
                               .:::::::::.                                     
 ```
 
