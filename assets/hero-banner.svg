@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818cf8" />
+      <stop offset="50%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#22d3ee" />
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+    </pattern>
+  </defs>
+  
+  <rect width="1200" height="300" fill="url(#bg)" rx="24" />
+  <rect width="1200" height="300" fill="url(#grid)" rx="24" />
+  
+  <!-- Ambient Glows -->
+  <circle cx="1000" cy="150" r="200" fill="#8b5cf6" opacity="0.15" filter="blur(60px)" />
+  <circle cx="200" cy="150" r="200" fill="#06b6d4" opacity="0.1" filter="blur(60px)" />
+
+  <!-- Status Badge -->
+  <rect x="50" y="50" width="160" height="32" rx="16" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1" />
+  <circle cx="70" cy="66" r="4" fill="#10b981">
+    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
+  </circle>
+  <text x="85" y="71" font-family="ui-monospace, monospace" font-size="13" fill="#94a3b8" font-weight="500">Available for work</text>
+
+  <!-- Main Typography -->
+  <text x="50" y="150" font-family="'Space Grotesk', system-ui, sans-serif" font-size="72" font-weight="800" fill="url(#textGrad)" letter-spacing="-2">
+    AYUSH
+  </text>
+  <text x="50" y="190" font-family="'Space Grotesk', system-ui, sans-serif" font-size="24" font-weight="500" fill="#e2e8f0" letter-spacing="0">
+    18 • Independent Developer • Systems Architect
+  </text>
+  <text x="50" y="230" font-family="ui-monospace, monospace" font-size="15" fill="#64748b">
+    Building high-performance web &amp; mobile experiences.
+  </text>
+</svg>
