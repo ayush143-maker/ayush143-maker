@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300">
+  <defs>
+    <linearGradient id="areaFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="300" rx="16" fill="#030712"/>
+
+  <!-- grid lines -->
+  <g stroke="#ffffff" stroke-opacity="0.06" stroke-width="1">
+    <line x1="60" y1="60" x2="940" y2="60"/>
+    <line x1="60" y1="105" x2="940" y2="105"/>
+    <line x1="60" y1="150" x2="940" y2="150"/>
+    <line x1="60" y1="195" x2="940" y2="195"/>
+    <line x1="60" y1="240" x2="940" y2="240"/>
+  </g>
+
+  <!-- titles -->
+  <text x="60" y="35" font-family="ui-monospace,Menlo,monospace" font-size="13" fill="#94a3b8" letter-spacing="2">CONTRIBUTION ACTIVITY — LAST 12 MONTHS</text>
+  <text x="940" y="35" text-anchor="end" font-family="ui-monospace,Menlo,monospace" font-size="13" font-weight="700" fill="#f472b6">1,042 contributions</text>
+
+  <!-- area -->
+  <path d="M60,238.6 L140,239.3 L220,239 L300,239.7 L380,238.3 L460,239.3 L540,237.9 L620,236.6 L700,223.5 L780,187.7 L860,141.6 L940,60 L940,240 L60,240 Z" fill="url(#areaFill)"/>
+
+  <!-- line (draw-in animation) -->
+  <path d="M60,238.6 L140,239.3 L220,239 L300,239.7 L380,238.3 L460,239.3 L540,237.9 L620,236.6 L700,223.5 L780,187.7 L860,141.6 L940,60"
+        fill="none" stroke="#8b5cf6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+        stroke-dasharray="1400" stroke-dashoffset="1400">
+    <animate attributeName="stroke-dashoffset" from="1400" to="0" dur="1.8s" fill="freeze"/>
+  </path>
+
+  <!-- dots -->
+  <g fill="#f472b6">
+    <circle cx="60" cy="238.6" r="4"/>
+    <circle cx="140" cy="239.3" r="4"/>
+    <circle cx="220" cy="239" r="4"/>
+    <circle cx="300" cy="239.7" r="4"/>
+    <circle cx="380" cy="238.3" r="4"/>
+    <circle cx="460" cy="239.3" r="4"/>
+    <circle cx="540" cy="237.9" r="4"/>
+    <circle cx="620" cy="236.6" r="4"/>
+    <circle cx="700" cy="223.5" r="4"/>
+    <circle cx="780" cy="187.7" r="4"/>
+    <circle cx="860" cy="141.6" r="4"/>
+    <circle cx="940" cy="60" r="6">
+      <animate attributeName="r" values="6;9;6" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <text x="940" y="45" text-anchor="end" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#e2e8f0">523</text>
+
+  <!-- month labels -->
+  <g font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#64748b" text-anchor="middle">
+    <text x="60" y="268">Sep</text>
+    <text x="140" y="268">Oct</text>
+    <text x="220" y="268">Nov</text>
+    <text x="300" y="268">Dec</text>
+    <text x="380" y="268">Jan</text>
+    <text x="460" y="268">Feb</text>
+    <text x="540" y="268">Mar</text>
+    <text x="620" y="268">Apr</text>
+    <text x="700" y="268">May</text>
+    <text x="780" y="268">Jun</text>
+    <text x="860" y="268">Jul</text>
+    <text x="940" y="268">Aug</text>
+  </g>
+</svg>
