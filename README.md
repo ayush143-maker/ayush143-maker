@@ -92,8 +92,10 @@ I architect and ship production-grade software. From real-time database syncing 
 ### 📊 GitHub Telemetry
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ayush143-maker&show_icons=true&theme=radical&hide_border=true&bg_color=030712&title_color=f472b6&icon_color=8b5cf6&text_color=e2e8f0" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayush143-maker&layout=compact&theme=radical&hide_border=true&bg_color=030712&title_color=f472b6&text_color=e2e8f0" width="44%" />
+  <img src="https://img.shields.io/github/followers/ayush143-maker?label=Followers&style=for-the-badge&logo=github&color=8b5cf6" />
+  <img src="https://img.shields.io/github/stars/ayush143-maker/prepare-x?label=Prepare-X%20Stars&style=for-the-badge&logo=github&color=f472b6" />
+  <img src="https://img.shields.io/github/commit-activity/year/ayush143-maker/prepare-x?label=Commits%20This%20Year&style=for-the-badge&logo=git&color=22d3ee" />
+  <img src="https://img.shields.io/github/languages/top/ayush143-maker/prepare-x?label=Top%20Language&style=for-the-badge&color=e2e8f0" />
 </p>
 
 <p align="center">
@@ -101,13 +103,12 @@ I architect and ship production-grade software. From real-time database syncing 
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ayush143-maker&bg_color=030712&color=e2e8f0&line=8b5cf6&point=f472b6&area=true&hide_border=true" width="96%" />
+  <img src="https://ghchart.rshah.org/8b5cf6/ayush143-maker" width="96%" alt="Contribution Chart" />
 </p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/ayush143-maker/ayush143-maker/output/github-contribution-grid-snake-dark.svg" width="96%" alt="Contribution Snake" />
 </p>
-
 ---
 
 <div align="center">
