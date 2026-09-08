@@ -94,7 +94,8 @@ I architect and ship production-grade software. From real-time database syncing 
 <p align="center">
   <img src="https://img.shields.io/github/followers/ayush143-maker?label=Followers&style=for-the-badge&logo=github&color=8b5cf6" />
   <img src="https://img.shields.io/github/stars/ayush143-maker/prepare-x?label=Prepare-X%20Stars&style=for-the-badge&logo=github&color=f472b6" />
-  <img src="https://img.shields.io/github/commit-activity/year/ayush143-maker/prepare-x?label=Commits%20This%20Year&style=for-the-badge&logo=git&color=22d3ee" />
+  <img src="https://img.shields.io/github/commit-activity/y/ayush143-maker/prepare-x?label=Commit%20Activity&style=for-the-badge&logo=git&color=22d3ee" />
+  <img src="https://img.shields.io/github/languages/code-size/ayush143-maker/prepare-x?label=Code%20Size&style=for-the-badge&color=f59e0b" />
   <img src="https://img.shields.io/github/languages/top/ayush143-maker/prepare-x?label=Top%20Language&style=for-the-badge&color=e2e8f0" />
 </p>
 
@@ -103,7 +104,7 @@ I architect and ship production-grade software. From real-time database syncing 
 </p>
 
 <p align="center">
-  <img src="https://ghchart.rshah.org/8b5cf6/ayush143-maker" width="96%" alt="Contribution Chart" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ayush143-maker&bg_color=030712&color=e2e8f0&line=8b5cf6&point=f472b6&area=true&hide_border=true&radius=8" width="96%" />
 </p>
 
 <p align="center">
