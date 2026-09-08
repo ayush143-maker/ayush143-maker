@@ -4,11 +4,24 @@
       <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.45"/>
       <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
     </linearGradient>
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="0.55" stop-color="#a855f7"/>
+      <stop offset="1" stop-color="#ec4899"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
 
   <rect width="1000" height="300" rx="16" fill="#030712"/>
 
-  <!-- grid lines -->
+  <!-- grid -->
   <g stroke="#ffffff" stroke-opacity="0.06" stroke-width="1">
     <line x1="60" y1="60" x2="940" y2="60"/>
     <line x1="60" y1="105" x2="940" y2="105"/>
@@ -17,22 +30,29 @@
     <line x1="60" y1="240" x2="940" y2="240"/>
   </g>
 
-  <!-- titles -->
+  <!-- y-axis hints -->
+  <g font-family="ui-monospace,Menlo,monospace" font-size="10" fill="#475569" text-anchor="end">
+    <text x="52" y="64">520</text>
+    <text x="52" y="154">260</text>
+    <text x="52" y="244">0</text>
+  </g>
+
+  <!-- headers -->
   <text x="60" y="35" font-family="ui-monospace,Menlo,monospace" font-size="13" fill="#94a3b8" letter-spacing="2">CONTRIBUTION ACTIVITY — LAST 12 MONTHS</text>
   <text x="940" y="35" text-anchor="end" font-family="ui-monospace,Menlo,monospace" font-size="13" font-weight="700" fill="#f472b6">1,042 contributions</text>
 
   <!-- area -->
   <path d="M60,238.6 L140,239.3 L220,239 L300,239.7 L380,238.3 L460,239.3 L540,237.9 L620,236.6 L700,223.5 L780,187.7 L860,141.6 L940,60 L940,240 L60,240 Z" fill="url(#areaFill)"/>
 
-  <!-- line (draw-in animation) -->
+  <!-- glowing gradient line with draw-in -->
   <path d="M60,238.6 L140,239.3 L220,239 L300,239.7 L380,238.3 L460,239.3 L540,237.9 L620,236.6 L700,223.5 L780,187.7 L860,141.6 L940,60"
-        fill="none" stroke="#8b5cf6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
-        stroke-dasharray="1400" stroke-dashoffset="1400">
+        fill="none" stroke="url(#lineGrad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+        filter="url(#glow)" stroke-dasharray="1400" stroke-dashoffset="1400">
     <animate attributeName="stroke-dashoffset" from="1400" to="0" dur="1.8s" fill="freeze"/>
   </path>
 
   <!-- dots -->
-  <g fill="#f472b6">
+  <g fill="#f472b6" filter="url(#softGlow)">
     <circle cx="60" cy="238.6" r="4"/>
     <circle cx="140" cy="239.3" r="4"/>
     <circle cx="220" cy="239" r="4"/>
@@ -44,11 +64,20 @@
     <circle cx="700" cy="223.5" r="4"/>
     <circle cx="780" cy="187.7" r="4"/>
     <circle cx="860" cy="141.6" r="4"/>
-    <circle cx="940" cy="60" r="6">
-      <animate attributeName="r" values="6;9;6" dur="2s" repeatCount="indefinite"/>
-    </circle>
   </g>
-  <text x="940" y="45" text-anchor="end" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#e2e8f0">523</text>
+
+  <!-- radar ping on peak -->
+  <circle cx="940" cy="60" r="6" fill="none" stroke="#f472b6" stroke-width="2">
+    <animate attributeName="r" values="6;20" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="940" cy="60" r="6" fill="#f472b6" filter="url(#softGlow)">
+    <animate attributeName="r" values="6;8;6" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- peak value pill (ab header ke neeche float nahi karega) -->
+  <rect x="838" y="48" width="88" height="24" rx="12" fill="#f472b6" fill-opacity="0.12" stroke="#f472b6" stroke-opacity="0.5"/>
+  <text x="882" y="64" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="11" font-weight="700" fill="#f9a8d4">523 in Aug</text>
 
   <!-- month labels -->
   <g font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#64748b" text-anchor="middle">
@@ -63,6 +92,6 @@
     <text x="700" y="268">May</text>
     <text x="780" y="268">Jun</text>
     <text x="860" y="268">Jul</text>
-    <text x="940" y="268">Aug</text>
+    <text x="940" y="268" fill="#f472b6" font-weight="700">Aug</text>
   </g>
 </svg>
