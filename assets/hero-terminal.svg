@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="1000" height="280">
+  <defs>
+    <linearGradient id="termBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#010409"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Terminal Window -->
+  <rect width="1000" height="280" rx="12" fill="url(#termBg)" stroke="#30363d" stroke-width="2"/>
+  
+  <!-- Mac Window Controls -->
+  <circle cx="24" cy="24" r="6" fill="#ff5f56"/>
+  <circle cx="44" cy="24" r="6" fill="#ffbd2e"/>
+  <circle cx="64" cy="24" r="6" fill="#27c93f"/>
+  
+  <!-- Terminal Title -->
+  <text x="500" y="28" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" fill="#484f58" text-anchor="middle">ayush@dev: ~/portfolio</text>
+
+  <!-- Code Block -->
+  <text x="30" y="80" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16" fill="#c9d1d9">
+    <tspan fill="#ff7b72">const</tspan> <tspan fill="#79c0ff">developer</tspan> = {
+  </text>
+  <text x="50" y="115" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16" fill="#c9d1d9">
+    <tspan fill="#a5d6ff">name</tspan>: <tspan fill="#a5d6ff">"Ayush"</tspan>,
+  </text>
+  <text x="50" y="150" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16" fill="#c9d1d9">
+    <tspan fill="#a5d6ff">age</tspan>: <tspan fill="#79c0ff">18</tspan>, <tspan fill="#8b949e">// 12th Pass, Self-Taught</tspan>
+  </text>
+  <text x="50" y="185" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16" fill="#c9d1d9">
+    <tspan fill="#a5d6ff">stack</tspan>: [<tspan fill="#a5d6ff">"Next.js"</tspan>, <tspan fill="#a5d6ff">"React"</tspan>, <tspan fill="#a5d6ff">"Supabase"</tspan>, <tspan fill="#a5d6ff">"Capacitor"</tspan>, <tspan fill="#a5d6ff">"Three.js"</tspan>],
+  </text>
+  <text x="50" y="220" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16" fill="#c9d1d9">
+    <tspan fill="#a5d6ff">current_focus</tspan>: <tspan fill="#a5d6ff">"Shipping cross-platform systems &amp; generative UI"</tspan>
+  </text>
+  <text x="30" y="255" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16" fill="#c9d1d9">};<tspan fill="#c9d1d9">_</tspan>
+    <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite" />
+  </text>
+</svg>
