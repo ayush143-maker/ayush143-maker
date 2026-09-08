@@ -1,137 +1,91 @@
-<p align="center">
-  <img src="public/images/profile-banner.svg" width="100%" alt="Ayush Banner" />
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=818CF8&center=true&vCenter=true&width=600&lines=Building+Next.js+%26+Capacitor+Apps;Shipping+Real-time+Backends+(Supabase);Crafting+3D+%26+Generative+UI+(Three.js);Architecting+Music+Tech+%26+AI+Tools" alt="Typing SVG" />
-</p>
-
-<p align="center">
-  <img src="public/images/tech-orbit.svg" width="80%" alt="Tech Orbit" />
-</p>
+<div align="center">
+  <img src="./assets/hero-terminal.svg" width="100%" alt="Terminal Header" />
+</div>
 
 <br/>
 
-```yaml
-ayush@dev:~$ whoami
-------------------------
-Name: .................. Ayush
-Age: ................... 18
-Education: ............. 12th Pass (Science)
-Role: .................. Independent Developer & Builder
-Focus: ................. Full-Stack Web, Mobile Apps, Music Tech
-Current Obsession: ..... AI Integrations & 3D Web Experiences
-Status: ................ Shipping to Production 🚀
-🚀 Flagship Projects
+I am an 18-year-old independent engineer building high-performance web and mobile applications. I don't just write code; I architect systems. From real-time database syncing to custom WebAudio engines and automated metadata pipelines, I focus on shipping production-grade software that scales.
+
+---
+
+### // 01. FEATURED_SYSTEMS
+
 <table>
-<tr>
-<td width="33%" valign="top">
-<h3 align="center">🎓 Prepare-X</h3>
-<p align="center">
-<img src="https://img.shields.io/badge/Next.js-15-black?style=flat-square&logo=next.js" />
-<img src="https://img.shields.io/badge/Zustand-ff7a00?style=flat-square" />
-</p>
-<p align="center">
-<b>CUET Prep Arena</b><br/>
-A premium exam simulator with 1200+ real shift PYQs, animated UI, adaptive scoring, and WebAudio sound engines.
-</p>
-</td>
-<td width="33%" valign="top">
-<h3 align="center">💬 Nexus</h3>
-<p align="center">
-<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react" />
-<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase" />
-</p>
-<p align="center">
-<b>Real-time Chat App</b><br/>
-Cross-platform messaging app with instant sync, presence indicators, and secure auth. Powered by Supabase real-time DB.
-</p>
-</td>
-<td width="33%" valign="top">
-<h3 align="center">🎵 Aurix</h3>
-<p align="center">
-<img src="https://img.shields.io/badge/YouTube_API-FF0000?style=flat-square&logo=youtube" />
-<img src="https://img.shields.io/badge/MusicBrainz-BA478F?style=flat-square" />
-</p>
-<p align="center">
-<b>Music Streaming & Dist.</b><br/>
-Streams via YT iframe, fetches metadata from iTunes/MusicBrainz, and automates RT uploads to Ditto/Spotify.
-</p>
-</td>
-</tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>⚡ Prepare-X (CUET Arena)</h3>
+      <p><strong>Next.js 15 · Zustand · TypeScript · WebAudio API</strong></p>
+      <p>A high-fidelity exam simulator handling <strong>1200+ questions</strong> with O(1) state lookups. Features a custom WebAudio sound engine, canvas-based confetti physics, and a 3.8M-token AI-assisted data pipeline for parsing real shift PDFs into structured JSON packs.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>💬 Nexus</h3>
+      <p><strong>React · Capacitor · Supabase Realtime · Tailwind</strong></p>
+      <p>A cross-platform messaging architecture. Engineered a low-latency chat infrastructure using Supabase Realtime subscriptions, wrapped in Capacitor for native iOS/Android deployment with offline-first state management.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🎵 Aurix</h3>
+      <p><strong>YouTube iframe API · MusicBrainz · Node.js</strong></p>
+      <p>An automated music distribution pipeline. Bridges streaming APIs with metadata providers (iTunes/MusicBrainz) to fetch rich thumbnails and tags, automating RT uploads to distributors like Ditto and Spotify.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎨 Generative & 3D UI</h3>
+      <p><strong>Three.js · WebGL · GLSL Shaders</strong></p>
+      <p>Experimenting with the intersection of math and design. Building immersive, dark-aesthetic web experiences using custom shaders, particle systems, and procedural generation.</p>
+    </td>
+  </tr>
 </table>
 
-🛠️ What I Can Build For You
-Based on my stack, I architect and ship:
-📱 Cross-Platform Mobile Apps: Single codebase React apps deployed to iOS/Android via Capacitor.
-⚡ Real-time Web Platforms: Chat, dashboards, and collab tools using Supabase & Firebase.
-🤖 AI-Powered Tools: Custom LLM wrappers, RAG pipelines, and automated content generators.
-🎨 3D & Generative UI: Immersive web experiences using Three.js and WebGL shaders.
-🎧 Music Tech Integrations: API mashups between streaming platforms, metadata providers, and distributors.
-<br/>
+---
 
-🛠️ Tech Stack
+### // 02. TECH_STACK
 
+**[ Frontend & UI ]**
+![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-000?style=flat-square&logo=three.js&logoColor=white)
 
+**[ Backend & Infrastructure ]**
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 
+**[ Mobile & DevOps ]**
+![Capacitor](https://img.shields.io/badge/Capacitor-119EFF?style=flat-square&logo=capacitor&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000?style=flat-square&logo=vercel&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
+---
 
+### // 03. METRICS & ACTIVITY
 
+<details open>
+  <summary><strong>📊 GitHub Telemetry</strong></summary>
+  <br/>
+  <p align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=ayush143-maker&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9" width="48%" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayush143-maker&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" width="48%" />
+  </p>
+  <p align="center">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=ayush143-maker&theme=github-dark-blue&hide_border=true&background=0d1117&ring=1f6feb&fire=1f6feb&currStreakLabel=58a6ff" width="97%" />
+  </p>
+</details>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<br/>
-
-📊 GitHub Stats
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=ayush143-maker&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" width="49%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayush143-maker&layout=compact&theme=tokyonight&hide_border=true" width="45%" />
-</p>
-
-<p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ayush143-maker&theme=tokyonight&hide_border=true" width="70%" />
-</p>
-
-<p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=ayush143-maker&theme=tokyonight&no-frame=true&row=1&column=6" width="90%" />
-</p>
+<details>
+  <summary><strong>🐍 Contribution Grid</strong></summary>
+  <br/>
+  <p align="center">
+    <img src="https://raw.githubusercontent.com/ayush143-maker/ayush143-maker/output/github-contribution-grid-snake-dark.svg" width="95%" />
+  </p>
+</details>
 
 <br/>
 
-📈 Activity Graph
-<p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ayush143-maker&theme=tokyo-night&hide_border=true" width="95%" />
-</p>
+---
 
-<br/>
-
-🐍 Contribution Snake
-<p align="center">
-<img src="https://raw.githubusercontent.com/ayush143-maker/ayush143-maker/output/github-contribution-grid-snake-dark.svg" width="95%" />
-</p>
-
-<br/>
-
-🌐 Connect
-<p align="center">
-<a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" /></a>
-<a href="mailto:YOUR-EMAIL"><img src="https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
-</p>
-
-<p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,100:1a1a2e&height=100&section=footer" width="100%"/>
-</p>
+<div align="center">
+  <sub>Built with raw HTML, Markdown, and a lot of coffee. ☕</sub>
+</div>
