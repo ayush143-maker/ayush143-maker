@@ -104,7 +104,7 @@ I architect and ship production-grade software. From real-time database syncing 
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ayush143-maker&bg_color=030712&color=e2e8f0&line=8b5cf6&point=f472b6&area=true&hide_border=true&radius=8" width="96%" />
+  <img src="https://github-readme-activity-graph-bice-ten.vercel.app/graph?username=ayush143-maker&bg_color=030712&color=e2e8f0&line=8b5cf6&point=f472b6&area=true&hide_border=true&radius=8" width="96%" />
 </p>
 
 <p align="center">
